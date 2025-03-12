@@ -5,7 +5,7 @@ function App() {
   const [people, setPeople] = useState<Person[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/people")
+    fetch("http://baby:3000/people")
       .then((res) => res.json())
       .then((people: Person[]) => setPeople(people));
   }, []);
