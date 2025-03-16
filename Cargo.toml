@@ -11,3 +11,6 @@ tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 tower-http = { version = "0.6.2", features = ["cors"] }
 typeshare = "1.0.4"
+libcamera = "0.3.0"
+# rascam = "0.0.2"
+# rslibcamlite = "0.1.7"

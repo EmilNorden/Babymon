@@ -8,3 +8,9 @@ pub struct Person {
     pub age: u32,
     pub favourite_food: Option<String>,
 }
+
+#[typeshare]
+#[derive(Serialize)]
+pub struct Camera {
+    pub model: String,
+}
